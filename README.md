@@ -5,8 +5,6 @@ I forked this repo and made it actually work on both platforms.
 ## I've updated to read me accordingly.
 
 
-This component is compatible with React Native 0.25 and newer.
-
 
 ## Installation
 
@@ -69,9 +67,6 @@ dependencies {
 * Create a drawable folder to put your splash image in.  The path should be `android/app/src/main/res/drawable`
 
 * Make the image title `splash.png` full path `res/drawable/splash.png`
-
-
-* If you're using react-native 0.30+, follow these steps...otherwise good luck.
 
 
 #### MainActivity.java
