@@ -7,10 +7,13 @@ I forked this repo and made it actually work on both platforms.
 
 
 ## Installation
+- Add this to your package.json
 
+```js
+"react-native-smart-splash-screen": "https://github.com/parkerdan/react-native-smart-splash-screen/tarball/master",
 ```
-npm install react-native-smart-splash-screen --save
-```
+
+-`npm install`
 
 ## Installation (iOS)
 
