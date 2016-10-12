@@ -21,9 +21,9 @@ I forked this repo and made it actually work on both platforms.
 
 * Click on your main project file (the one that represents the .xcodeproj) select Build Phases and drag libRCTSplashScreen.a from the Products folder inside the RCTSplashScreen.xcodeproj.
 
-* Look for Header Search Paths and make sure it contains $(SRCROOT)/../../../react-native/React as recursive.
+* Look for Header Search Paths and make sure it contains `$(SRCROOT)/../../../react-native/React` as recursive.
 
-* In your project, Look for Header Search Paths and make sure it contains $(SRCROOT)/../node_modules/react-native-smart-splash-screen/ios/RCTSplashScreen/RCTSplashScreen
+* In your project, Look for Header Search Paths and make sure it contains `$(SRCROOT)/../node_modules/react-native-smart-splash-screen/ios/RCTSplashScreen/RCTSplashScreen` as recursive
 
 * delete your project's LaunchScreen.xib
 
