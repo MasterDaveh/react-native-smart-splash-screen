@@ -1,5 +1,5 @@
 
-#import <React/RCTSplashScreen.h>
+#import "RCTSplashScreen.h"
 
 static RCTRootView *rootView = nil;
 
