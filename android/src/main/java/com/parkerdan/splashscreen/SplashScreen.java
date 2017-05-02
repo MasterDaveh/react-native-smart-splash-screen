@@ -78,7 +78,6 @@ public class SplashScreen {
            matrix.postScale(scaleWidth, scaleHeight);
            Bitmap resizedBitmap = Bitmap.createBitmap(bitmap, 0, 0, width,
                    height, matrix, true);
-           bitmap.recycle();
 
            int y = statusBarHeight;
            int x = 0;
